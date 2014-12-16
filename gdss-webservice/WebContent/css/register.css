@@ -181,3 +181,12 @@ body{
   left:0!important;
   top: 1px!important;
 }
+
+.btn-group {
+ margin: 0 auto; 
+ text-align: center;
+ font-size:0 !important;
+}
+.btn-group a {
+ display:inline-block;
+}

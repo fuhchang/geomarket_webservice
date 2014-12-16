@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Admin Home Page</title>
+    <title>Create Advertisement</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,6 +28,9 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
+
 
 </head>
 
@@ -47,7 +50,7 @@
                 </button>
                 <a class="navbar-brand" href="AdminHomePage.jsp"><i class="glyphicon glyphicon-home"></i> GeoDSS</a>
             </div>
-             <!-- Top Menu Items -->
+            <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> Messages <b class="caret"></b></a>
@@ -114,18 +117,7 @@
                         <li>
                             <a href="#">Alert Name <span class="label label-primary">Alert Badge</span></a>
                         </li>
-                        <li>
-                            <a href="#">Alert Name <span class="label label-success">Alert Badge</span></a>
-                        </li>
-                        <li>
-                            <a href="#">Alert Name <span class="label label-info">Alert Badge</span></a>
-                        </li>
-                        <li>
-                            <a href="#">Alert Name <span class="label label-warning">Alert Badge</span></a>
-                        </li>
-                        <li>
-                            <a href="#">Alert Name <span class="label label-danger">Alert Badge</span></a>
-                        </li>
+                        
                         <li class="divider"></li>
                         <li>
                             <a href="#">View All Notifications</a>
@@ -152,7 +144,7 @@
                 </li>
             </ul>
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
+           <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     
                     <li>
@@ -191,6 +183,7 @@
             <!-- /.navbar-collapse -->
         </nav>
 
+
         <div id="page-wrapper">
 
             <div class="container-fluid">
@@ -199,8 +192,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Welcome Back,
-                            <small>Nicholas (Admin)</small>
+                            Create Advertisement
                         </h1>
                         <ol class="breadcrumb">
                             
@@ -211,11 +203,92 @@
 
             </div>
             <!-- /.container-fluid -->
+<div class="container">
+	<div class="row">
+		
+               
+                <!-- advertisement title input-->
+                <div class="control-group">
+                    <label class="control-label">Advertisement Title</label>
+                    <div class="controls">
+                        <input id="title" name="title" type="text" placeholder="Title"
+                        class="input-xlarge">
+                        <p class="help-block"></p>
+                    </div>
+                </div>
+                <!-- company name input-->
+                <div class="control-group">
+                    <label class="control-label">Company Name</label>
+                    <div class="controls">
+                        <input id="companyname" name="companyname" type="text" placeholder="Name"
+                        class="input-xlarge">                     
+                    </div>
+                </div>
+                <!-- address input-->
+                <div class="control-group">
+                    <label class="control-label">Address</label>
+                    <div class="controls">
+                        <input id="address-line2" name="address" type="text" placeholder="Address"
+                        class="input-xlarge">                      
+                    </div>
+                </div>
+                
+                <!-- postal-code input-->
+                <div class="control-group">
+                    <label class="control-label">Postal Code</label>
+                    <div class="controls">
+                        <input id="postal-code" name="postal-code" type="text" placeholder="6 digit Postal Code"
+                        class="input-xlarge">
+                        
+                    </div>
+                </div>
+                
+                <!-- number input-->
+                <div class="control-group">
+                    <label class="control-label">Phone Number</label>
+                    <div class="controls">
+                        <input id="phonenumber" name="phonenumber" type="text" placeholder="Phone Number"
+                        class="input-xlarge">
+                        
+                    </div>
+                </div>
+                
+                <!-- type select -->
+                <div class="control-group">
+                    <label class="control-label">Type Selection</label>
+                    <div class="controls">
+                        <select id="country" name="country" class="input-xlarge">
+                            <option value="" selected="selected">(Please Select a Type)</option>
+                            <option value="food">Food</option>
+                            <option value="apparel">Apparel</option>
+                            <option value="jobs">Jobs</option>
+                            <option value="education">Education</option>
+                            <option value="lifestyle">Lifestyle</option>
+                            <option value="entertainment">Entertainment</option>
+                        </select>
+                    </div>
+                </div>
+               <br>
+                 <!-- Description input-->
+                 <div class="span6">
+      <label>Description</label>
+      <br>
+       
+        <textarea class="col-lg-7" id="description" rows="6"></textarea>
 
+    </div>
+
+                </div>
+                <br>
+                <br>
+                <input class="btn btn-lg btn-success" type="submit" value="Create Advertisement" id="createadvert">
+            
+	</div>
+</div>
         </div>
         <!-- /#page-wrapper -->
 
-    </div>
+    
     <!-- /#wrapper -->
 
     <!-- jQuery -->

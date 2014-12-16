@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Admin Home Page</title>
+    <title>User Home Page</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -45,9 +45,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="AdminHomePage.jsp"><i class="glyphicon glyphicon-home"></i> GeoDSS</a>
+                <a class="navbar-brand" href="index.html">GeoDSS</a>
             </div>
-             <!-- Top Menu Items -->
+            <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> Messages <b class="caret"></b></a>
@@ -60,10 +60,10 @@
                                     </span>
                                     <div class="media-body">
                                         <h5 class="media-heading">
-                                            <strong>Nicholas (Admin)</strong>
+                                            <strong>John Smith</strong>
                                         </h5>
                                         <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
-                                        <p>Hi..</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
                                     </div>
                                 </div>
                             </a>
@@ -76,10 +76,10 @@
                                     </span>
                                     <div class="media-body">
                                         <h5 class="media-heading">
-                                            <strong>Nicholas (Admin)</strong>
+                                            <strong>John Smith</strong>
                                         </h5>
                                         <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
-                                        <p>Bye...</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
                                     </div>
                                 </div>
                             </a>
@@ -92,10 +92,10 @@
                                     </span>
                                     <div class="media-body">
                                         <h5 class="media-heading">
-                                            <strong>Nicholas (Admin)</strong>
+                                            <strong>John Smith</strong>
                                         </h5>
                                         <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
-                                        <p>See you..</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
                                     </div>
                                 </div>
                             </a>
@@ -133,7 +133,7 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Nicholas (Admin) <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Bob Tan <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="#"><i class="fa fa-fw fa-user"></i> View Profile</a>
@@ -146,7 +146,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="login.jsp"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                         </li>
                     </ul>
                 </li>
@@ -156,34 +156,19 @@
                 <ul class="nav navbar-nav side-nav">
                     
                     <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-edit"></i> Advertisements <i class="fa fa-fw fa-caret-down"></i></a>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="glyphicon glyphicon-sort"></i> Go To <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="demo" class="collapse">
                         <li>
-                                <a href="ViewAdvert.jsp">View Advertisements</a>
+                                <a href="#"><i class="glyphicon glyphicon-refresh"></i> Latest Updates</a>
                             </li>
                             <li>
-                                <a href="CreateAdvert.jsp">Create an Advertisement</a>
+                                <a href="#"><i class="glyphicon glyphicon-bullhorn"></i> Latest Advertisements</a>
                             </li>
                             <li>
-                                <a href="#">Edit Advertisement</a>
+                                <a href="#"><i class="glyphicon glyphicon-map-marker"></i> Map Search</a>
                             </li>
-                                                 
-                        </ul>
-                    </li>
-                  <li>
-                        <a href="#"><i class="glyphicon glyphicon-refresh"></i> Updates</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="glyphicon glyphicon-map-marker"></i> Map Search</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-table"></i> Tables</a>
-                    </li>
-                  
-                   
+                            
+                            
                         </ul>
                     </li>
                     
@@ -200,7 +185,7 @@
                     <div class="col-lg-12">
                         <h1 class="page-header">
                             Welcome Back,
-                            <small>Nicholas (Admin)</small>
+                            <small>Bob</small>
                         </h1>
                         <ol class="breadcrumb">
                             

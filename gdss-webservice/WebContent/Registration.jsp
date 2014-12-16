@@ -55,7 +55,7 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li class="active">
-                        <a href="#"><i class="fa fa-fw fa-dashboard"></i> User Registration</a>
+                        <a href="#"><i class="glyphicon glyphicon-registration-mark"></i> User Registration</a>
                     </li>                                                    
                 </ul>
             </div>
@@ -131,37 +131,71 @@
                 <input id="email" name="email" type="text" placeholder="E-mail" class="form-control">
               </div>
             </div>
-    
-    <br>
-    <div class="dropdown">
-  <button class="btn btn-default dropdown-toggle" type="button" id="accounttype" data-toggle="dropdown" aria-expanded="true">
-    Select Account Type
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu dropdown-menu-center" role="menu" aria-labelledby="ddlaccounttype">
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">User</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Administrator</a></li>
-  </ul>
-</div>
-        
-        <br>
-       <div class="dropdown">
-  <button class="btn btn-default dropdown-toggle" type="button" id="gender" data-toggle="dropdown" aria-expanded="true">
-    Select Gender
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu dropdown-menu-center" role="menu" aria-labelledby="ddlgender">
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Male</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Female</a></li>    
-  </ul>
-</div>
-<br>
-            <!-- Form actions -->
+            
+             <!-- account type select -->
+                <div class="control-group">
+                    <label class="col-md-3 control-label">Choose an Account Type</label>
+                    <br>
+                    <div class="controls">
+                        <select id="accounttype" name="accounttype" class="input-xlarge">
+                            <option value="" selected="selected">Select Account Type</option>
+                            <option value="user">User</option>
+                            <option value="administrator">Administrator</option>             
+                        </select>
+                    
+                </div> 
+       </div>
+       <br>
+        <!-- gender type select -->
+                <div class="control-group">
+                    <label class="col-md-3 control-label">Choose Your Gender</label>
+                    <br>
+                    <div class="controls">
+                        <select id="gender" name="gender" class="input-xlarge">
+                            <option value="" selected="selected">Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>             
+                        </select>
+                </div>
+                </div>
+                <br>
+                <!-- age group select -->
+                <div class="control-group">
+                    <label class="col-md-3 control-label">Choose an Age Group</label>
+                    </div>
+                    <br>
+                    <div class="controls">
+                        <select id="age group" name="age group" class="input-xlarge">
+                            <option value="" selected="selected">Select Age Group</option>
+                            <option value="13-21yrs">13-21 yrs</option>
+                            <option value="21-35yrs">21-35 yrs</option>             
+                            <option value="35-50yrs">35-50 yrs</option> 
+                            <option value="Above 50 yrs">Above 50 yrs</option> 
+                            
+                        </select>
+                    
+                </div>
+                <br>
+                <br>
+                 <!-- Form actions -->
             <div class="form-group">
               <div class="col-md-12 text-right">
-                <button type="submit" class="btn btn-primary btn-lg">Register</button>
+                <a class="btn btn-primary btn-lg" id="submit" href="login.jsp" >Register</a>
+                <br>
+               
               </div>
             </div>
+                </div>
+    
+     
+             
+    </div>         
+    </div>
+    
+ 
+          
+            
+            <br>
           </fieldset>
           </form>
         </div>

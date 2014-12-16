@@ -8,8 +8,20 @@ $(document).ready(function(){
   });
 });
 
-$(".dropdown-menu li a").click(function(){
-	  var selText = $(this).text();
-	  $(this).parents('.btn-group').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');
+jQuery("#action-1").click(function(e){
+	//do something
+	e.preventDefault();
 	});
 
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).not('.in .dropdown-menu').stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).not('.in .dropdown-menu').stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});

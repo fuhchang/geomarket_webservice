@@ -49,9 +49,9 @@
 			    	    		<input name="remember" type="checkbox" value="Remember Me"> Remember Me
 			    	    	</label>
 			    	    </div>
-			    		<input class="btn btn-lg btn-success btn-block" type="submit" value="Login" id="login">
+			    		<a class="btn btn-lg btn-success btn-block" type="submit" id="login" href="AdminHomePage.jsp">Login</a>
 			    		<br>
-			    		<a href=#><label>New User? Register here.</label></a>	
+			    		<a href="Registration.jsp"><label>New User? Register here.</label></a>	
 			    	</fieldset>
 			      	</form>
 			    </div>

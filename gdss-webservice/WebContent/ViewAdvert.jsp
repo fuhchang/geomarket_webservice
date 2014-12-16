@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Admin Home Page</title>
+    <title>View Advertisement</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,6 +28,9 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
+
 
 </head>
 
@@ -47,7 +50,7 @@
                 </button>
                 <a class="navbar-brand" href="AdminHomePage.jsp"><i class="glyphicon glyphicon-home"></i> GeoDSS</a>
             </div>
-             <!-- Top Menu Items -->
+            <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> Messages <b class="caret"></b></a>
@@ -114,18 +117,7 @@
                         <li>
                             <a href="#">Alert Name <span class="label label-primary">Alert Badge</span></a>
                         </li>
-                        <li>
-                            <a href="#">Alert Name <span class="label label-success">Alert Badge</span></a>
-                        </li>
-                        <li>
-                            <a href="#">Alert Name <span class="label label-info">Alert Badge</span></a>
-                        </li>
-                        <li>
-                            <a href="#">Alert Name <span class="label label-warning">Alert Badge</span></a>
-                        </li>
-                        <li>
-                            <a href="#">Alert Name <span class="label label-danger">Alert Badge</span></a>
-                        </li>
+                        
                         <li class="divider"></li>
                         <li>
                             <a href="#">View All Notifications</a>
@@ -199,23 +191,36 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Welcome Back,
-                            <small>Nicholas (Admin)</small>
+                            View Advertisement
                         </h1>
                         <ol class="breadcrumb">
                             
                         </ol>
-                    </div>
-                </div>
-                <!-- /.row -->
 
-            </div>
-            <!-- /.container-fluid -->
+                <!-- Advert select -->
+                <label>Search For Advertisement:</label>
+                <br>
+                <br>
+                <div class="container">
+	<div class="col-lg-4">
+        <div class="search">
+<input type="text" class="form-control input-sm" maxlength="40" placeholder="Search advertisement title" style="text-align: center" />
+<br>
+ <button type="submit" class="btn btn-primary btn-sm" style="text-align:center">Search</button>
+</div>
+	</div>
+</div>
 
+ 
+    </div>
+
+              
+	</div>
+</div>
         </div>
         <!-- /#page-wrapper -->
 
-    </div>
+    
     <!-- /#wrapper -->
 
     <!-- jQuery -->
@@ -226,4 +231,3 @@
 
 </body>
 
-</html>
