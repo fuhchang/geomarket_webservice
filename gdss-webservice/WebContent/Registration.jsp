@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>GeoDSS Registration Page</title>
+    <title>SB Admin - Bootstrap Admin Template</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -29,13 +29,11 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-
+	<script type="text/javascript">
+	</script>
 </head>
 
 <body>
-
-    <div id="wrapper">
 
         <!-- Navigation -->
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -47,19 +45,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">GeoDSS</a>
+                <a class="navbar-brand" href="index.html">GeoMarket</a>
             </div>
-            <!-- Top Menu Items -->
-            
-            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav side-nav">
-                    <li class="active">
-                        <a href="#"><i class="glyphicon glyphicon-registration-mark"></i> User Registration</a>
-                    </li>                                                    
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
         </nav>
 
         <div id="page-wrapper">
@@ -70,145 +57,118 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            User Registration <small>For New Users</small>
-                        </h1>
-               <div class="container-fluid">
-           
-               
-               
-               </div>        
+                            GeoMarket <small>Register user</small>
+                        </h1>                           
+                        <ol class="breadcrumb">
+                            <li class="active">
+                                <i class="fa fa-dashboard"></i>Welcome to GeoMarket!!
+                            </li>
+                        </ol>
                     </div>
                 </div>
-               
-                    
-                <!-- /.row -->
+                <div class="row">
+                    <div id="register_form" class="col-lg-12 col-md-12">
+                                    			<div class="container">
 
-               
-                <!-- /.row -->
-
-                
-                <!-- /.row -->
-
-            
+														<div class="row">
+														    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+																<form role="form">
+																	<h2>Please Sign Up <small>It's free and always will be.</small></h2>
+																	<hr class="colorgraph">
+																	<div class="row">
+																		<div class="col-xs-12 col-sm-6 col-md-6">
+																			<div class="form-group">
+														                        <input type="text" name="first_name" id="first_name" class="form-control input-lg" placeholder="First Name" tabindex="1">
+																			</div>
+																		</div>
+																		<div class="col-xs-12 col-sm-6 col-md-6">
+																			<div class="form-group">
+																				<input type="text" name="last_name" id="last_name" class="form-control input-lg" placeholder="Last Name" tabindex="2">
+																			</div>
+																		</div>
+																	</div>
+																	<div class="form-group">
+																		<input type="text" name="contact" id="contact" class="form-control input-lg" placeholder="contact" tabindex="3">
+																	</div>
+																	<div class="form-group">
+																		<input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address" tabindex="4">
+																	</div>
+																	<div class="row">
+																		<div class="col-xs-12 col-sm-6 col-md-6">
+																			<div class="form-group">
+																				<input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password" tabindex="5">
+																			</div>
+																		</div>
+																		<div class="col-xs-12 col-sm-6 col-md-6">
+																			<div class="form-group">
+																				<input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-lg" placeholder="Confirm Password" tabindex="6">
+																			</div>
+																		</div>
+																	</div>
+																	<div class="row">
+																		<div class="col-xs-12 col-sm-12 col-md-12">
+																			<div class="form-group">
+																				<input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password" tabindex="5">
+																			</div>
+																		</div>
+																		<div class="col-xs-12 col-sm-12 col-md-12">
+																			<div class="form-group">
+																				<input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-lg" placeholder="Confirm Password" tabindex="6">
+																			</div>
+																		</div>
+																	</div>
+																	<div class="row">
+																		<div class="col-xs-4 col-sm-3 col-md-3">
+																			<span class="button-checkbox">
+																				<button type="button" class="btn" data-color="info" tabindex="7">I Agree</button>
+														                        <input type="checkbox" name="t_and_c" id="t_and_c" class="hidden" value="1">
+																			</span>
+																		</div>
+																		<div class="col-xs-8 col-sm-9 col-md-9">
+																			 By clicking <strong class="label label-primary">Register</strong>, you agree to the <a href="#" data-toggle="modal" data-target="#t_and_c_m">Terms and Conditions</a> set out by this site, including our Cookie Use.
+																		</div>
+																	</div>
+																	
+																	<hr class="colorgraph">
+																	<div class="row">
+																		<div class="col-xs-12 col-md-6"><input type="submit" value="Register" class="btn btn-primary btn-block btn-lg" tabindex="7"></div>
+																		<div class="col-xs-12 col-md-6"><a href="#" class="btn btn-success btn-block btn-lg">Sign In</a></div>
+																	</div>
+																</form>
+															</div>
+														</div>
+														<!-- Modal -->
+														<div class="modal fade" id="t_and_c_m" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+															<div class="modal-dialog modal-lg">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+																		<h4 class="modal-title" id="myModalLabel">Terms & Conditions</h4>
+																	</div>
+																	<div class="modal-body">
+																		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
+																		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
+																		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
+																		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
+																		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
+																		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
+																		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-primary" data-dismiss="modal">I Agree</button>
+																	</div>
+																</div><!-- /.modal-content -->
+															</div><!-- /.modal-dialog -->
+														</div><!-- /.modal -->
+														</div>
+                    </div>
+                </div>
+            </div>
             <!-- /.container-fluid -->
-<br>
-<br>
-	<div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <div class="well well-sm">
-          <form class="form-horizontal" action="" method="post">
-          <fieldset>
-           
-    
-            <!-- Username input-->
-            <div class="form-group">
-            
-            <br>
-              <label class="col-md-3 control-label" for="Username">Enter a Username</label>
-              <div class="col-md-9">
-                <input id="username" name="username" type="text" placeholder="Username" class="form-control">
-              </div>
-            </div>
-    
-            <!-- Password input-->
-            <div class="form-group">
-              <label class="col-md-3 control-label" for="password">Enter a Password</label>
-              <div class="col-md-9">
-                <input id="password" name="password" type="text" placeholder="Password" class="form-control">
-              </div>
-            </div>
-            
-            <div class="form-group">
-              <label class="col-md-3 control-label" for="password1">Re-Confirm Password</label>
-              <div class="col-md-9">
-                <input id="Confirm password" name="Confirm password" type="text" placeholder="Re-confirm Password" class="form-control">
-              </div>
-            </div>
-            
-            <div class="form-group">
-              <label class="col-md-3 control-label" for="email">Enter an E-mail</label>
-              <div class="col-md-9">
-                <input id="email" name="email" type="text" placeholder="E-mail" class="form-control">
-              </div>
-            </div>
-            
-             <!-- account type select -->
-                <div class="control-group">
-                    <label class="col-md-3 control-label">Choose an Account Type</label>
-                    <br>
-                    <div class="controls">
-                        <select id="accounttype" name="accounttype" class="input-xlarge">
-                            <option value="" selected="selected">Select Account Type</option>
-                            <option value="user">User</option>
-                            <option value="administrator">Administrator</option>             
-                        </select>
-                    
-                </div> 
-       </div>
-       <br>
-        <!-- gender type select -->
-                <div class="control-group">
-                    <label class="col-md-3 control-label">Choose Your Gender</label>
-                    <br>
-                    <div class="controls">
-                        <select id="gender" name="gender" class="input-xlarge">
-                            <option value="" selected="selected">Select Gender</option>
-                            <option value="male">Male</option>
-                            <option value="female">Female</option>             
-                        </select>
-                </div>
-                </div>
-                <br>
-                <!-- age group select -->
-                <div class="control-group">
-                    <label class="col-md-3 control-label">Choose an Age Group</label>
-                    </div>
-                    <br>
-                    <div class="controls">
-                        <select id="age group" name="age group" class="input-xlarge">
-                            <option value="" selected="selected">Select Age Group</option>
-                            <option value="13-21yrs">13-21 yrs</option>
-                            <option value="21-35yrs">21-35 yrs</option>             
-                            <option value="35-50yrs">35-50 yrs</option> 
-                            <option value="Above 50 yrs">Above 50 yrs</option> 
-                            
-                        </select>
-                    
-                </div>
-                <br>
-                <br>
-                 <!-- Form actions -->
-            <div class="form-group">
-              <div class="col-md-12 text-right">
-                <a class="btn btn-primary btn-lg" id="submit" href="login.jsp" >Register</a>
-                <br>
-               
-              </div>
-            </div>
-                </div>
-    
-     
-             
-    </div>         
+
+
+
     </div>
-    
- 
-          
-            
-            <br>
-          </fieldset>
-          </form>
-        </div>
-      </div>
-	</div>
-			  
-
-	
-</div>
-        
-        <!-- /#page-wrapper -->
-
-    
     <!-- /#wrapper -->
 
     <!-- jQuery -->
@@ -216,11 +176,6 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Morris Charts JavaScript -->
-    <script src="js/plugins/morris/raphael.min.js"></script>
-    <script src="js/plugins/morris/morris.min.js"></script>
-    <script src="js/plugins/morris/morris-data.js"></script>
 
 </body>
 
